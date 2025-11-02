@@ -1,0 +1,386 @@
+Unused Method Prototype,Address,No. of Instruction Bytes
+"SpDisplayList::SendDmaNext(undefined4 ref,void *data)",0x00100770,40
+SpDisplayList::GetEmptySize(void),0x00100980,48
+"SpDisplayList::SetSmallBuffer(Dma_Header **OutEndBuffer1,Dma_Header **OutEndBuffer2,int *param_3)",0x001009B0,80
+SpDisplayList::NextBufferData(void),0x00100A00,48
+DmacTransfer::Enable(void),0x00100A30,56
+DmacTransfer::ChainTransferVif_GifAndProcess(uint tadr),0x00100B98,296
+DmacTransfer::ChainSprVifTransfer(uint tadr),0x00100CC0,200
+DmacTransfer::ChainSprVif_GifAndProcess(uint tadr),0x00100D88,296
+DmacTransfer::ChainGifTransfer(uint tadr),0x00100EB0,152
+DmacTransfer::ChainGifTransferAndProcess(uint tadr),0x00100F48,208
+"DmacTransfer::NormalTransferGif(uint madr,int qwc)",0x00101018,144
+DmacTransfer::ProcessGif(void),0x00101170,72
+"GsRegisterTransfer::Clamp(WrapMode wms,WrapMode wmt,ushort minu,ushort maxu,ushort minv,ushort maxv)",0x00101340,192
+"GsRegisterTransfer::XYOffset(int ofx,int ofy)",0x001014B0,152
+GsRegisterTransfer::Tex1_1(ulong tex1),0x00101650,128
+GsRegisterTransfer::DmaFba_1(ulong fba),0x001016D0,128
+GsRegisterTransfer::Alpha_1(ulong alpha),0x001017D0,168
+GsRegisterTransfer::ret_00101870(void),0x00101870,8
+GameGraph::ret_00102118(void),0x00102118,8
+GameGraph::void_00102438(void),0x00102438,8
+GameGraph::void_00102440(void),0x00102440,8
+GameGraph::void_00102448(void),0x00102448,8
+GameGraph::void_00102450(void),0x00102450,8
+MapFxDmaTransfer::ret_00102c60(void),0x00102C60,8
+MapFxDmaTransfer::ret_00102c68(void),0x00102C68,8
+"Dbt::SendImages(Dbt *dbt,int start,int count,int textureBufferLocation,int clutBufferLocation)",0x0010A2E8,200
+"Dbt::SendImageByLocation(Dbt *dbt,int imageID,int textureBufferLocationBase,int clutBufferLocationBase)",0x0010A528,120
+"FodFile::GetListObjectsCount(FodFileList *listTable,int listID)",0x0010A848,56
+Memcard::Get_Handler_Stage(void),0x00116B98,8
+Memcard::Get_State(int Port),0x00116D08,136
+Memcard::Reset_Handler(int Port),0x00116E10,288
+"Memcard::Get_Game_Data(int Port,MemcardDirData *param_2)",0x00118118,1000
+"Memcard::Get_Root_Dir(int Port,int Maxent,sceMcTblGetDir *Table)",0x00118CA0,296
+IopHandler::sceSifQueryAllMemSize(void),0x0011EC90,48
+IopHandler::GetSpyMemoryUsedLength(void),0x0011F080,72
+IopHandler::GetMaxEmptySpuBufferLength(void),0x0011F110,72
+IopHandler::GetSpuMemoryEndAddr(void),0x0011F158,64
+MathUtils::ret_0011FE80(void),0x0011FE80,8
+MathUtils::ret_00120B80(void),0x00120BB0,8
+MathUtils::ret_00120BB8(undefined4 *param_1),0x00120BB8,8
+MathUtils::ret_00120C18(void),0x00120C18,8
+MathUtils::ret_00121918(void),0x00121918,8
+MathUtils::ret_00121920(void),0x00121920,8
+MathUtils::ret_00121928(void),0x00121928,8
+MathUtils::ret_00121930(void),0x00121930,8
+MathUtils::ret_00121938(void),0x00121938,8
+MathUtils::ret_00121940(void),0x00121940,8
+MathUtils::ret_00121948(void),0x00121948,8
+MathUtils::ret_00121950(void),0x00121950,8
+"MathUtils::VectorSwap(Vector4 *v0,Vector4 *v1)",0x00121E98,24
+"MathUtils::Vector3Mul(Vector4 *out,Vector4 *v0,Vector4 *v1)",0x00121F28,24
+"MathUtils::VectorToInt12(Vector4Int *out,Vector4 *in)",0x001220D8,16
+"MathUtils::VectorToIntMix(Vector4Int *out,Vector4 *in)",0x00122108,24
+"MathUtils::VectorGetRelativeDirection(Vector4 *param_1,Vector4 *end,Vector4 *start)",0x001222E0,56
+MathUtils::void_00122590(void),0x00122590,8
+Joypad::~Joypad(void),0x00122A20,8
+Joypad::void_00122A28(void),0x00122A28,8
+Joypad::void_00122A30(void),0x00122A30,8
+Joypad::void_00122A38(void),0x00122A38,8
+VagClient::CheckStat(void),0x00123FC8,32
+VagHandler::~VagHandler(void),0x001249B0,128
+VagHandler::MemoryEmptyAdd(void),0x00124EA8,64
+VagHandler::MemoryEmptyPop(void),0x00124EE8,40
+"VagHandler::StopAudio(uint port_bit,int id)",0x001250D8,88
+"VagHandler::Check(uint port_bit,int id)",0x00125148,24
+VagHandler::CheckID(int cpu_id),0x00125160,24
+VagHandler::GetVoicesStat(int core),0x001251D8,24
+VagHandler::GetPackageVagiCount(uint param_1),0x00125280,96
+MoviePlayer::Delete(void),0x00125A10,24
+MenuFade::IsFadeOut(void),0x00126EA8,16
+BattleResult::BattleOverByGiveUp(void),0x00128B50,40
+BattleResult::GetAchievements(void),0x00129298,32
+"BattleSettings::ActorScreenSettingsInit(int P1CameraType,int P2CameraType,int P1ScreenShake,int P2ScreenShake)",0x00129F58,128
+BattleSettings::ActorScreenSettingsInit(int param_1),0x00129FD8,128
+BattleSettings::MapHasChanged(void),0x0012AC60,56
+BattleSettings::ResetCurrentMap(void),0x0012AC98,56
+BattleSettings::ActorCharacterIDHasChanged(int Actor_Role),0x0012AFE8,64
+BattleSettings::ResetActorCurrentCharacterID(int Actor_Role),0x0012B028,48
+"VfxGroup00Graphic::CreateObject1(int actorID,Vector4 *param_2)",0x0017D448,72
+"VfxGroup00Graphic::CreateObject3(float duration,int actorID,int delay,int disappearanceDelay)",0x0017D5A8,248
+"VfxGroup16Graphic::SetStopTime(VfxObject *object,float time)",0x00196C90,72
+"VfxGroup16Graphic::SetImage(VfxObject *object,DBT_Buffer_Image_Table_SIZE16 *dbtData,int texID,int clutID)",0x00196CD8,88
+VfxSwordDisplay::GetColorPointer(void),0x0019D0F8,24
+VfxTextures::ret_001ae468(void),0x001A3468,8
+VfxGroup17Graphic::StopAndHide(VfxObject *object),0x001A3670,48
+"VfxGroup17Graphic::SetImageData(VfxObject *object,int imageID,DBT_Buffer_Image_Table_SIZE16 *imagesData,int texID,int clutID)",0x001A3998,88
+"VfxGroup17Graphic::SetContext(VfxObject *object,int context)",0x001A3A40,80
+"V000Fx::SetInitialized(V000Fx *data,int value)",0x001AAF68,16
+V000Reader::GetKeyframesCount(V000Object *object),0x001ACFA0,8
+V000Reader::GetStartKeyframe(V000Object *object),0x001AD088,16
+V000Reader::GetLastKeyframe(V000Object *object),0x001AD098,24
+"VfxTextures::SetImageEndBufferLocation(int textureBufferLoc,int clutBufferLoc)",0x001ADBC0,24
+"VfxTextures::GetImageBufferLocation(int *outTextureBufferLoc,int *outClutBufferLoc)",0x001ADBD8,32
+"VfxTextures::AddImageAndSetImageLocation(DBT_Image_Buffer_Data *image,int textureBufferLoc,int clutBufferLoc,bool alphaChannel,int func)",0x001ADDB0,128
+"VfxTextures::AddAllImages8(DBT_Buffer_Image_Table_SIZE8 *param_1,bool alphaChannel,byte func)",0x001ADF30,128
+"VfxTextures::AddAllImages16(DBT_Buffer_Image_Table_SIZE16 *param_1,bool alphaChannel,byte func)",0x001ADFB0,128
+VfxTextures::GetTextureBufferLength(void),0x001AE448,32
+COM::Get_Actor_AI_Behaviour_Type(int Actor_Role),0x001BB348,40
+COM::GetBattleFrames(void),0x001BB5A0,16
+"BattleActor::GetTeammateBattleDataByCharacterID(BattleActor *Data,Character_ID_32 CharacterID)",0x001CDFF0,160
+"BattleActor::GetTeammateIdOfCharacterId(BattleActor *Data,Character_ID_32 Character_ID)",0x001CE2E0,88
+"BattleActor::SetCurrentTeammateSparkingKi(BattleActor *Data,int value)",0x001CEDD0,72
+BattleActor::GetCurrentTeammateKiPercentage(BattleActor *Data),0x001CEF08,72
+BattleActor::CurrentTeammateHasFullHp(BattleActor *Data),0x001CEF50,48
+BattleActor::CurrentTeammateHasDepletedHp(BattleActor *Data),0x001CEFD8,40
+"BattleActor::PartnerSetShadowVisibility(BattleActor *actor,bool enable)",0x001D3780,88
+BattleActor::PartnerGetModel(BattleActor *actor),0x001D3840,48
+"BattleActor::Partner_001d3900(BattleActor *actor,float *param_2,float param_3,float param_4)",0x001D3900,184
+"BattleActor::Partner_001d39b8(BattleActor *actor,float param_2,float param_3)",0x001D39B8,104
+"BattleActor::GetUnreleasedButtonTime(BattleActor *actor,ActorPadInputID padInput)",0x001D4DA8,16
+"BattleActor::GetLastButtonInputTime(BattleActor *actor,ActorPadInputID padInput)",0x001D4DB8,16
+"BattleActor::CheckReleasedActions(BattleActor *actor,ActorPadActions actions)",0x001D4DE8,16
+"BattleActor::GetPerformedPadActionCount(BattleActor *actor,ActorPadActionID action)",0x001D4DF8,16
+"BattleActor::LoadInputCaseChecked(BattleActor *actor,ActorInputCase case,bool enabled)",0x001D4E60,56
+BattleActor::CharacterLoadObjectCollection::LoadHasFinished(void),0x001D6310,32
+BattleActor::CharacterLoadObjectCollection::GetRole(void),0x001D6340,32
+BattleActor::GetOpponentBellyHeight(BattleActor *Actor),0x001DB678,40
+BattleActor::GetOpponentFaceHeight(BattleActor *actor),0x001DB8D0,40
+BattleActor::Get_Team_Player_Character_Common_Properties(int Team_ID),0x00204EC8,48
+BattleActor::Get_Character_Common_Param_0xC8(int Team_ID),0x00204FA0,56
+BattleActor::Get_Actor_Current_Team_ID(int Actor_Role),0x00205130,56
+"BattleActor::FUN_002054e8(int Team_ID,Vector4 *param_2)",0x002054E8,240
+BattleActor::FUN_002055d8(int param_1),0x002055D8,88
+"BattleActor::FUN_002058b0(int param_1,Character_Bone_ID_32 Bone_ID,Vector4 *param_3)",0x002058B0,152
+"BattleActor::FUN_002059d0(int param_1,Character_Bone_ID_32 Bone_ID,Matrix4x4 *param_3)",0x002059D0,136
+"BattleActor::FUN_00205a58(int param_1,Character_Bone_ID_32 param_2,Vector4 *param_3)",0x00205A58,88
+"BattleActor::GetBoneRotation(int Team_ID,Character_Bone_ID_32 Bone_ID,Vector4 *PTR_Bone_Rotation)",0x00205AB0,136
+BattleActor::FUN_00205bd0(int param_1),0x00205BD0,48
+BattleActor::FUN_00205c80(int param_1),0x00205C80,64
+"BattleActor::FUN_002060f0(float param_1,float param_2,undefined4 param_3,int param_4)",0x002060F0,136
+"BattleActor::FUN_00206178(float param_1,undefined4 param_2,int param_3,Vector4 *param_4)",0x00206178,176
+BattleActor::FUN_00206d40(int param_1),0x00206D40,64
+BattleActor::FUN_00206d80(int param_1),0x00206D80,64
+BattleActor::Player_Has_EQUIPMENT_01(int Team_ID),0x00206F58,56
+BattleActor::FUN_00207030(int param_1),0x00207030,56
+BattleActor::FUN_00207148(int param_1),0x00207148,96
+BattleActor::FUN_00207690(int param_1),0x00207690,56
+BattleActor::FUN_00207828(void),0x00207828,88
+BattleActor::FUN_00207c80(int param_1),0x00207C80,72
+BattleActor::FUN_00207d88(int param_1),0x00207D88,40
+BattleActor::FUN_00208318(int param_1),0x00208318,64
+BattleActor::FUN_00208bc8(int param_1),0x00208BC8,56
+BattleActor::FUN_00208c00(int param_1),0x00208C00,56
+BattleActor::FUN_00208c38(int param_1),0x00208C38,56
+BattleActor::FUN_00208ca8(int param_1),0x00208CA8,40
+"BattleActor::FUN_0020a050(int param_1,undefined4 *param_2)",0x0020A050,80
+"BattleActor::FUN_0020a108(int param_1,undefined4 *param_2)",0x0020A108,80
+BattleActor::FUN_0020bd10(int param_1),0x0020BD10,56
+BattleActor::ActorIsChangingTeamCharacter(int actorID),0x0020BD48,64
+"BattleActor::FUN_0020c710(int param_1,long Skill_ID)",0x0020C710,120
+"BattleActor::SetActorTeamAIValue(int Actor_Role,int AI_Value)",0x0020C800,120
+BattleActor::GetActorCurrentPlayerMisc0xC6(BattleActor *Actor),0x0020E2E8,40
+BattleActor::FUN_0020e718(BattleActor *Actor),0x0020E718,104
+BattleActor::FUN_0020e780(BattleActor *Actor),0x0020E780,96
+BattleActor::GetActorCurrentPlayerMisc0x1C(BattleActor *Actor),0x0020E958,40
+BattleActor::GetActorCurrentPlayerMisc0x20(BattleActor *Actor),0x0020E980,40
+BattleActor::GetActorCurrentPlayerMisc0x24(BattleActor *Actor),0x0020E9A8,40
+BattleActor::GetActorCurrentPlayerMisc0x5C(BattleActor *Actor),0x0020EFA8,40
+BattleActor::GetActorCurrentPlayerMisc0xC8(BattleActor *Actor),0x0020F260,40
+"BattleActor::Get_Kidan_FlagSet(int *PTR_Actor_Data_Table,int Kidan_Category)",0x0020F9F0,72
+BattleActor::Get_Current_Kidan_Damage(BattleActor *PTR_Actor_Data_Table),0x0020FA38,144
+"BattleActor::Get_Kidan_Damage(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x0020FB50,152
+BattleActor::Get_Current_Kidan_Blocked_Damage(BattleActor *PTR_Actor_Data_Table),0x0020FBE8,136
+"BattleActor::Get_Kidan_Blocked_Damage(int *PTR_Actor_Data_Table,int Kidan_Category)",0x0020FCF0,144
+"BattleActor::Get_Kidan_Speed(BattleActor *Actor,int Kidan_Category)",0x0020FEC0,80
+"BattleActor::Get_Kidan_Direction_Radian(BattleActor *Actor,int Kidan_Category)",0x0020FFB8,80
+"BattleActor::Get_Kidan_Time_Lifespan(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x00210078,56
+"BattleActor::Get_Kidan_VFX_Start_Position(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x002100F8,32
+BattleActor::Get_Current_Kidan_Hit_Effect(int *PTR_Actor_Data_Table),0x00210118,56
+"BattleActor::Get_Kidan_Hit_Effect(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x00210180,64
+BattleActor::Get_Current_Kidan_Downed_Hit_Effect(int *PTR_Actor_Data_Table),0x002101C0,72
+"BattleActor::Get_Kidan_Downed_Hit_Effect(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x00210248,80
+BattleActor::Get_Current_Kidan_Secondary_Hit_Effect(int *PTR_Actor_Data_Table),0x00210298,56
+"BattleActor::Get_Kidan_Secondary_Hit_Effect(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x00210308,56
+BattleActor::Get_Current_Kidan_Secondary_Downed_Hit_Effect(int *PTR_Actor_Data_Table),0x00210340,56
+"BattleActor::Get_Kidan_Secondary_Downed_Hit_Effect(int *PTR_Actor_Data_Table,int Kidan_Category)",0x002103B0,56
+"BattleActor::Get_Kidan_0x03_Param(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x00210498,32
+"BattleActor::Get_Kidan_VFX_Size(int *PTR_Actor_Data_Table,int Kidan_Category)",0x00210568,32
+"BattleActor::Get_Kidan_0x2C_Param(BattleActor *PTR_Actor_Data_Table,int Kidan_Category)",0x002105D0,32
+BattleActor::Get_Current_Kidan_Impact_Param(int *PTR_Actor_Data_Table),0x002105F0,88
+"BattleActor::Get_Kidan_Impact_Param(int *PTR_Actor_Data_Table,int Kidan_Category)",0x002106A0,88
+BattleActor::Get_Current_Kidan_0x20_Param(BattleActor *actor),0x002106F8,88
+"BattleActor::Get_Kidan_0x20_Param(BattleActor *actor,int Kidan_Category)",0x002107A8,88
+"BattleActor::Get_BLAST2_0x90_Param(BattleActor *PTR_Actor_Data_Table,int Skill_ID)",0x00210DF8,48
+"BattleActor::Get_BLAST1_First_FlagSet(BattleActor *PTR_Actor_Data_Table,int Skill_ID)",0x00211F08,56
+"BattleActor::Get_BLAST1_0x14_Param(BattleActor *PTR_Actor_Data_Table,int Skill_ID)",0x00211FB0,56
+"BattleActor::Get_BLAST1_0x38_Param(BattleActor *PTR_Actor_Data_Table,int Skill_ID)",0x002120F8,48
+"BattleUI::PauseMenu::FUN_00214b68(PauseMenuWindow *window,int param_2)",0x00214B68,40
+"BattleUI::PauseMenu::FUN_00214c18(PauseMenuWindow *param_1,long param_2,int param_3)",0x00214C18,48
+"BattleUI::PauseMenu::FUN_00214df0(PauseMenuWindow *param_1,long param_2)",0x00214DF0,136
+BattleUI::DemoUI::Free(void),0x0021BF28,40
+"BattleUI::MoveImageBaseOffsets(BattleUIImage *PTR_Image_Data_Table,short Width_Modifier,short Height_Modifier)",0x00224B48,56
+BattleUI::HorizontalMirrorImageBaseOffset(BattleUIImage *PTR_Image_Data_Table),0x00224B80,24
+BattleUI::VerticalMirrorImageBaseOffset(BattleUIImage *PTR_Image_Data_Table),0x00224B98,24
+BattleUI::FUN_002251f8(int param_1),0x002251F8,712
+"BattleUI::FUN_00225d98(uint *param_1,Dbt *param_2,char param_3,ulong param_4,ulong param_5)",0x00225D98,1376
+"BattleUI::FUN_00226360(int param_1,int param_2,int *param_3)",0x00226360,16
+BattleUI::TimerUI::EnableDragonBall(void),0x0022F710,16
+"BoundingBox::GetDiameter(BoundingBox *box,Vector4 *outDiameter)",0x00230B50,64
+BoundingBox::IsValid(BoundingBox *box),0x00230B90,88
+Fnt::Term(void),0x00239FE8,128
+Fnt::SetGraphicFlag(int value),0x0023A2B0,24
+Fnt::GetGraphicFlag(void),0x0023A2C8,8
+Fnt::GetBaseLineSize(void),0x0023A2D0,8
+Fnt::GetMaxLineSizeUTF8(char *text),0x0023A420,32
+Fnt::GetTotalTextHeight(wchar_t *text),0x0023A5A8,48
+Fnt::GetTextLineCountUTF8(char *text),0x0023A5F0,24
+Fnt::CreateNewObjectAndSetCursorCharUnitUTF16(wchar_t _char),0x0023A6B8,32
+"Fnt::CreateNewObjectCharUnitUTF16(int x,int y,wchar_t _char)",0x0023A6D8,32
+Fnt::CreateNewObjectAndSetCursorUTF8(char *text),0x0023A6F8,32
+"Fnt::CreateNewObjectUTF8(int x,int y,char *text)",0x0023A718,32
+Fnt::CreateNewObjectAndSetCursorCharUnitUnicode(wchar_t _char),0x0023A738,40
+"Fnt::CreateNewObjectCharUnitUnicode(int x,int y,wchar_t _char)",0x0023A760,40
+"Fnt::CreateNewObjectAndSetCursorIntValue(int value,int numberLength)",0x0023A788,64
+"Fnt::CreateNewObjectIntValue(int x,int y,int value,int numberLength)",0x0023A7C8,96
+Fnt::SetCursorStruct(FontCursor *cursor),0x0023A828,48
+"Fnt::GetLineCursor(int *x,int *y)",0x0023A910,32
+"Fnt::SetCursorChar(int x,int y)",0x0023A930,24
+"Fnt::GetCursorChar(int *x,int *y)",0x0023A948,32
+Fnt::SetColor(RGBA_Bytes color),0x0023AC78,16
+Fnt::GetColor(void),0x0023AC88,16
+Fnt::GetScale(void),0x0023ACA8,16
+"Fnt::GetSpacing(int *charSpacing,int *lineSpacing)",0x0023AD08,32
+"Fnt::GetScissor(uint *scax1,uint *scay1,uint *scax2,uint *scay2)",0x0023AD48,48
+Fnt::GetAlignment(void),0x0023AD88,16
+Fnt::GetFlags(void),0x0023ADA8,16
+Fnt::GetEffect(void),0x0023ADC8,16
+Fnt::GetOutlineColor(void),0x0023ADE8,16
+"Fnt::GetOutlineSize(int *width,int *height)",0x0023AE10,32
+"Fnt::FUN_0023aee8(uint param_1,uint param_2)",0x0023AEE8,32
+Fnt::FUN_0023af08(void),0x0023AF08,16
+Fnt::ret_0023c160(void),0x0023C160,8
+Fnt::void_0023c168(void),0x0023C168,8
+Fnt::void_0023c170(void),0x0023C170,8
+BattleCamera::FUN_0023dca0(void),0x0023DCA0,16
+BattleCamera::FUN_0023ef00(void),0x0023EF00,64
+"BattleCamera::FUN_0023ef40(float param_1,CinematicCameraData *param_2,float *param_3,float *param_4,int port)",0x0023EF40,720
+BattleCamera::FUN_0023f210(undefined4 param_1),0x0023F210,8
+ModelViewerCamera::GetLocation(Vector4 *out),0x0023F8B8,32
+ModelViewerCamera::GetRotation(Vector4 *out),0x0023F8D8,32
+ModelViewerCamera::Get_Zoom(void),0x0023F8F8,16
+"ModelViewerCamera::Get_Zoom_Limits(float *Output_Max,float *Output_Min)",0x0023F908,32
+ModelViewerCamera::Get_X_Rotation_Limit(void),0x0023F928,16
+ModelViewerCamera::Set_Camera_Rotation_Zero(void),0x0023F938,24
+ModelViewerCamera::Set_Not_Rotating_Flag(int param_1),0x0023F950,16
+Map::SetGlobalDAT_002febe4(uint param_1),0x0023FB50,8
+Map::FUN_0023fb58(void),0x0023FB58,32
+"Map::FUN_0023fb78(Vector4 *param_1,Vector4 *param_2)",0x0023FB78,120
+Map::GetGlobalDAT_002febe4(void),0x0023FBF0,8
+Map::FUN_00240790(void),0x00240790,80
+Map::FUN_002407e0(void),0x002407E0,40
+Map::FUN_00240808(void),0x00240808,120
+"Map::ReloadMapPak(bool param_1,int fileID)",0x00240880,96
+Evp::~Evp(void),0x00241CE0,8
+Evp::Free(void),0x00241CE8,8
+Evp::FUN_00241d48(void),0x00241D48,24
+Map::FUN_00242918(long param_1),0x00242918,64
+Map::FUN_00242a58(void),0x00242A58,48
+Map::Set_Map_Character_Ilumination(undefined8 *param_1),0x00243098,120
+"Map::FUN_00243208(Vector4 *param_1,Vector4 *param_2)",0x00243208,184
+MapSe::SetAudioGlobalVolume(float vol),0x00243FA0,16
+MapSe::SetSeGlobalVolume(float vol),0x00243FB0,16
+CharacterData::ModelRendering::GetPlayersCount(void),0x00248F30,24
+CharacterData::FaceStack::GetCount(void),0x002494D8,32
+CharacterData::FaceStack::GetCount(void),0x002494D8,32
+CharacterData::ShadowStack::GetCount(void),0x00249570,40
+CharacterData::ModelList::GetInitializedModelCount(void),0x002496D0,32
+CharacterData::GetData(void),0x00249B10,8
+CharacterData::DataIsNotNull(void),0x00249B18,16
+CharacterData::Resources::CharaFilesResourceFree(CharacterFilesResources *resources),0x0024B9F8,64
+"Animation::SetAnimationSpeed(Model *model,float speed)",0x0024CE80,8
+Face::HasExtraFaceImagesDbt(Model *model),0x0024F780,32
+Face::HasExtraFaces(Model *model),0x0024F7A0,32
+"ModelBone::HasPoseBone(Model *model,int bone)",0x00250400,24
+ScreenFadeList::Term(void),0x00252A58,8
+ScreenFadeList::SetStopAll(bool stop),0x00252AD8,88
+"ScreenFadeList::SetStop(int id,bool stop)",0x00252B30,48
+ScreenFadeList::IsStopped(int id),0x00252B60,48
+ScreenFadeList::IsEnabled(int id),0x00252B90,48
+CharaPasswordNeo::SetPasswordDataText(PasswordCharaNeoData *data),0x00253448,8
+"CharaPasswordNeo::FUN_00253610(PasswordCharaDbz1Data *param_1,char *param_2)",0x00253610,168
+CharaPasswordNeo::SetCharacterData(PasswordCharaNeoData *data),0x002537B8,440
+CharaPasswordNeo::FUN_00253970(PasswordCharaDbz1Data *param_1),0x00253970,432
+CharaPasswordNeo::GetPassword(void),0x00253B20,16
+CharaPasswordNeo::FUN_00253b30(PasswordCharaNeoData *param_1),0x00253B30,232
+CharaPasswordNeo::FUN_00253c18(PasswordCharaDbz1Data *param_1),0x00253C18,232
+CharaPasswordNeo::GetDebugDataText1(void),0x00253D00,16
+CharaPasswordNeo::GetDebugDataText2(void),0x00253D10,16
+CharaPasswordZs3::SetPasswordDataText(void),0x002543B8,8
+CharaPasswordZs3::void_00254798(void),0x00254798,8
+CharaPasswordZs3::GetRandomCharacterData(PasswordCharaZs3Data *data),0x002547A0,184
+CharaPasswordZs3::GetDebugDataText(PasswordCharaZs3Data *data),0x00254858,16
+"Buffer::SetParams(uint param_1,byte param_2)",0x00255390,40
+Buffer::GetTotalUnusedLength(void),0x002553C8,128
+Buffer::GetTotalUsedLength(void),0x00255448,144
+Buffer::GetUnusedGreaterBufferLength(void),0x002554D8,128
+Buffer::GetTotalBufferListSize(void),0x00255558,24
+Buffer::GetStartBufferList(int listID),0x00255578,24
+Buffer::GetEndBufferList(int listID),0x00255590,24
+Buffer::GetBufferListSize(int listID),0x002555A8,24
+Buffer::FUN_002555c0(int param_1),0x002555C0,24
+Buffer::FUN_002555d8(int param_1),0x002555D8,24
+Buffer::FUN_002555f0(int param_1),0x002555F0,64
+CharacterData::PoseBoneStack::GetCount(void),0x00255B20,40
+Buffer::GetModulus4(uint ptr),0x00255F70,8
+Buffer::GetModulus8(uint ptr),0x00255F78,8
+Buffer::GetModulus16(uint ptr),0x00255F80,8
+Buffer::GetModulus32(uint ptr),0x00255F88,8
+Buffer::GetModulus64(uint ptr),0x00255F90,8
+Buffer::GetModulus128(uint ptr),0x00255F98,8
+Buffer::Align4(uint ptr),0x00256000,40
+Buffer::Align8(uint ptr),0x00256028,40
+Buffer::Align16(uint ptr),0x00256050,40
+Buffer::Align32(uint ptr),0x00256078,40
+Buffer::Align64(uint ptr),0x002560A0,40
+Buffer::Align128(uint ptr),0x002560C8,40
+"Quaternion::Conjugate(Vector4 *output,Vector4 *input)",0x002565D8,48
+"Quaternion::NormalizeInPlace(Vector4 *output,Vector4 *input)",0x00256A80,128
+Quaternion::ToZsQuaternion(Vector4 *quaternion),0x00256B00,328
+GamePad::GetPadConnected(int port),0x00257678,32
+Gsc::Unused(void),0x00257888,8
+Gsc::SetBattleFunctionList(GscFunction *GSC_Function_Table),0x00257890,8
+Gsc::DebugGscStageHandler(void),0x00257930,152
+GscItem::HasItem(int GSC_Table_ID),0x00257D68,32
+GscItem::GetCount(void),0x00257D88,32
+GscStageItem::GetCount(void),0x00257E30,32
+"GscStageItem::NodeExists(int gscItem,int nodeID)",0x00257FF0,56
+GscReader::PrintGscItemData(int gscItemID),0x002580D8,32
+GscReader::PrintCurrentFunction(void),0x002580F8,40
+"GscReader::PrintGscFunction(GscItem *gscItem,int functionID)",0x002582B8,344
+GscReader::ReadParameterString(void),0x00258460,32
+GscReader::OptionalReadStringParameter(char *default),0x002584F8,48
+GscReader::SkipParameter(void),0x00258528,48
+GscReader::SetPropertyData(int skipCount),0x00258658,168
+GscReader::SkipProperties(void),0x00258700,112
+GscReader::JumpToProperty(char propertyID),0x00258770,128
+GscResources::FUN_00259c88(int param_1),0x00259C88,40
+"MenuDisplay::SetGuideEyesDefault(FodBuffer *fod,FodMcObjectStruct *object,int imageID)",0x0025DF48,112
+"MenuDisplay::FUN_0025e550(FodBuffer *fod,FodMcObjectStruct *object,int x,int y,FodTexCoords *texCoors,byte *param_6)",0x0025E550,256
+"MenuDisplay::FUN_0025eaf0(FodBuffer *fod,uint *param_2,int *param_3,int *param_4,int value)",0x0025EAF0,720
+"TextDisplay::SetOutlineColor(TextDisplay *data,uint color)",0x0025FEA8,48
+"MenuUtilities::SetObjectText(FodBuffer *fod,FodMcObjectStruct *object,int x,int y,char *text,TextDisplay *textData)",0x00260728,1056
+"MenuUtilities::GatherZItemData(int *zitemList,int counter,ZITEM_Character_Ability_Data *abilityData,ZITEM_PROPERTIES *properties)",0x002610D8,336
+DebugGraph::FUN_00262e28(void),0x00262E20,8
+DebugGraph::FUN_00262e20(void),0x00262E28,8
+DebugGraph::FUN_00262e30(void),0x00262E30,8
+DebugGraph::FUN_00262e38(void),0x00262E38,8
+DebugGraph::FUN_00262e40(void),0x00262E40,8
+DebugGraph::FUN_00262e48(void),0x00262E48,8
+DebugGraph::FUN_00262e50(void),0x00262E50,8
+DebugGraph::FUN_00262e70(void),0x00262E70,8
+DebugGraph::FUN_00262e78(void),0x00262E78,8
+DebugGraph::FUN_00262e80(void),0x00262E80,8
+DebugGraph::FUN_00262e88(void),0x00262E88,8
+DebugGraph::FUN_00262e90(void),0x00262E90,8
+DebugGraph::FUN_00262e98(void),0x00262E98,8
+DebugGraph::FUN_00262ea0(void),0x00262EA0,8
+DebugGraph::FUN_00262ea8(void),0x00262EA8,8
+DebugGraph::FUN_00262eb0(void),0x00262EB0,8
+DebugGraph::FUN_00262eb8(void),0x00262EB8,8
+DebugGraph::FUN_00262ec0(void),0x00262EC0,8
+DebugGraph::FUN_00262ee8(void),0x00262EE8,8
+DebugGraph::FUN_00262ef0(void),0x00262EF0,8
+DebugGraph::FUN_00262ef8(void),0x00262EF8,8
+DebugGraph::FUN_00262f00(void),0x00262F00,8
+DebugGraph::FUN_00262f10(void),0x00262F10,8
+SceneAddition::GetInitializedObjectsCount(void),0x002633E0,24
+Loading_Screen::Display(void),0x002647B8,168
+FileManager::void_00264860(void),0x00264860,8
+FileManager::FUN_00264d80(void),0x00264D80,8
+"AfsFile::LoadPtInsideFileFname(char *fname,int *tmpbuf,int size)",0x00265280,48
+AfsFile::GetTmpADXFReadStat(void),0x002652D8,16
+"AudioPlayer::GetNormalVolume(ADXT_Enum type,int param_2)",0x002654A8,136
+AudioPlayer::GetStatBGM(void),0x00265B30,24
+AudioPlayer::GetStatMAP(void),0x00265C00,24
+AudioPlayer::HasStoppedMAP(void),0x00265C18,24
+AudioPlayer::SetFadeOutMAP(void),0x00265C30,24
+"AudioPlayer::SetWaitingVIC(int param_1,int File_ID)",0x00265D18,32
+AudioPlayer::ResumeVIC(int param_1),0x00265D38,24
+DbzsmSaveData::SetDefaultFull(DbzsmSaveData *MC_Data),0x00265E98,528
+Pad_Ports::Is_Connected(int Pad_ID),0x00267AF0,224
+Pad_Ports::~Pad_Ports(void),0x00267FE8,40
+IfSystemWindow::SetPadID(int padID),0x00268EF0,16
+IfSystemWindow::GetTextPak(void),0x00268FC8,16
+DataCenterPasswordInputMenu::FixMenuPlate(int menuPlate),0x003AAC10,32

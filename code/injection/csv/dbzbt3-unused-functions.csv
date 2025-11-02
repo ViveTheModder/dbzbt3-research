@@ -1,0 +1,260 @@
+Unused Function Prototype,Address,No. of Instruction Bytes
+"FUN_00104f78(ulong param_1,undefined8 param_2)",0x00104F78,592
+void_00105f28(void),0x00105F28,8
+void_00106c70(void),0x00106C70,8
+ret_00106c78(void),0x00106C78,8
+"FUN_00106c80(undefined4 *param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4, undefined4 param_5)",0x00106C80,24
+"FUN_001072c8(long param_1,int param_2,int param_3,int param_4,int param_5,long param_6)",0x001072C8,576
+"FUN_00107788(float param_1,undefined4 *param_2,float param_3,float param_4,float param_5)",0x00107788,120
+FUN_00107800(ulong param_1),0x00107800,40
+"FUN_00107828(ulong param_1,undefined4 param_2)",0x00107828,40
+"FUN_00107850(ulong param_1,undefined4 *param_2)",0x00107850,72
+ret_00109928(void),0x00109928,8
+ret_00109930(void),0x00109930,8
+"FUN_00109be0(undefined8 param_1,int param_2,undefined8 param_3,int param_4)",0x00109BE0,104
+"FUN_00109e38(uint param_1,int param_2,int param_3,long param_4)",0x00109E38,168
+ret_0011F438(void),0x0011F438,8
+FUN_0011f4a8(int ch),0x0011F4A8,32
+"SendDmaMapModel2(uint param_1,undefined4 *param_2)",0x001236B8,160
+SendGraphicMapModelMicroCode2(undefined4 *param_1),0x00123758,184
+FUN_00125320(void),0x00125320,24
+"FUN_001255a8(uint param_1,ulong param_2,int param_3,int param_4,int param_5,int param_6)",0x001255A8,56
+FUN_0012be88(int param_1),0x0012BE88,56
+FUN_0012bf20(int param_1),0x0012BF20,24
+"Apply_Team_Player_Blast_Stock_Modifier(int Actor_Role,int Team_ID,int Blast_Stock_Modifier)",0x0012C3C8,96
+FUN_0012c5a8(int param_1),0x0012C5A8,40
+ret_0012C6E8(void),0x0012C6E8,8
+FUN_0012c830(undefined4 param_1),0x0012C830,24
+FUN_0012c848(void),0x0012C848,24
+FUN_0012ea50(int *param_1),0x0012EA50,72
+"FUN_0012ea98(undefined4 param_1,int param_2)",0x0012EA98,56
+"FUN_0012ead0(undefined4 param_1,int param_2)",0x0012EAD0,56
+FUN_0012ef98(void),0x0012EF98,24
+FUN_0012efb0(void),0x0012EFB0,24
+FUN_0012efc8(void),0x0012EFC8,24
+FUN_0012eff8(void),0x0012EFF8,24
+FUN_0012f010(void),0x0012F010,24
+"FUN_0012f040(Table002fe9a8Item *param_1,CollisionUnion param_2,CollisionUnion param_3)",0x0012F040,24
+"FUN_0012f058(Table002fe9a8Item *param_1,CollisionUnion param_2,CollisionUnion param_3)",0x0012F058,24
+"FUN_0012f070(Table002fe9a8Item *param_1,CollisionUnion param_2,CollisionUnion param_3)",0x0012F070,24
+"FUN_0012f0a0(Table002fe9a8Item *param_1,CollisionUnion param_2,CollisionUnion param_3)",0x0012F0A0,24
+"FUN_0012f0b8(Table002fe9a8Item *param_1,CollisionUnion param_2,CollisionUnion param_3)",0x0012F0B8,24
+FUN_0012f6a8(int param_1),0x0012F6A8,24
+FUN_0012f6c0(void),0x0012F6C0,16
+"FUN_0012fca8(float param_1,undefined8 param_2,byte *param_3,byte *param_4)",0x0012FCA8,568
+"FUN_001303b0(float param_1,undefined8 *param_2,float *param_3)",0x001303B0,72
+"FUN_00130650(float param_1,undefined8 *param_2,float *param_3)",0x00130650,328
+"FUN_00130798(float param_1,undefined8 *param_2,float *param_3)",0x00130798,320
+"FUN_001308d8(float param_1,undefined8 param_2,float *param_3)",0x001308D8,104
+"FUN_00130940(float param_1,float param_2,float param_3,float param_4,undefined8 *param_5,Vector4 *param_6)",0x00130940,592
+"FUN_00132288(float param_1,float param_2,undefined4 param_3,undefined4 param_4, undefined4 param_5,undefined4 param_6,float param_7,float param_8,undefined8 param_9,float *param_10,long param_11,long param_12,ulong param_13)",0x00132288,1480
+FUN_00135648(long param_1),0x00135648,64
+FUN_00135688(long param_1),0x00135688,88
+FUN_00136758(long param_1),0x00136758,112
+FUN_001367c8(long param_1),0x001367C8,112
+FUN_001379d0(undefined4 param_1),0x001379D0,24
+FUN_001379e8(void),0x001379E8,24
+FUN_00137a00(undefined4 param_1),0x00137A00,24
+FUN_00137a18(void),0x00137A18,24
+FUN_00137a30(void),0x00137A30,24
+FUN_00137a48(undefined4 param_1),0x00137A48,24
+FUN_00137a60(void),0x00137A60,24
+"FUN_00137a78(uint param_1,uint param_2,uint param_3)",0x00137A78,48
+FUN_00137aa8(undefined4 *param_1),0x00137AA8,64
+"FUN_00137ae8(undefined4 param_1,undefined4 param_2,undefined4 param_3)",0x00137AE8,40
+FUN_00137b10(float *param_1),0x00137B10,64
+FUN_00137b50(undefined4 param_1),0x00137B50,24
+FUN_00137b68(void),0x00137B68,24
+FUN_00137b80(undefined4 param_1),0x00137B80,24
+FUN_00137b98(void),0x00137B98,24
+FUN_00137bb0(undefined4 param_1),0x00137BB0,24
+FUN_00137f50(void),0x00137F50,8
+FUN_0013e780(float *param_1),0x0013E780,112
+FUN_0013f3d0(int *param_1),0x0013F3D0,72
+FUN_0013f418(int *param_1),0x0013F418,16
+"FUN_001406e0(float param_1,int param_2,long param_3)",0x001406E0,2024
+FUN_00142e10(int param_1),0x00142E10,88
+FUN_001473e8(int *param_1),0x001473E8,72
+FUN_0014a7c8(void),0x0014A7C8,24
+"FUN_0015f6c8(undefined4 param_1,float param_2,float param_3,int param_4,float *param_5,Character_Bone_ID_32 param_6,long param_7)",0x0015F6C8,864
+"FUN_00161ac0(float param_1,uint *param_2,ulong param_3)",0x00161AC0,512
+FUN_00165478(long param_1),0x00165478,80
+FUN_001654c8(long param_1),0x001654C8,80
+FUN_00165518(long param_1),0x00165518,80
+"FUN_00165568(long param_1,long param_2,Character_Type param_3)",0x00165568,80
+"FUN_001655c8(long param_1,ulong param_2)",0x001655C8,96
+"FUN_00165680(int param_1,long param_2)",0x00165680,120
+FUN_0016a8f0(long param_1),0x0016A8F0,112
+FUN_0016a9a0(long param_1),0x0016A9A0,72
+FUN_0016aa60(long param_1),0x0016AA60,72
+FUN_0016d5c8(int param_1),0x0016D5C8,128
+FUN_0016d910(long param_1),0x0016D910,88
+"FUN_00171568(long param_1,long param_2,uint param_3)",0x00171568,96
+"FUN_001715c8(long param_1,ulong param_2)",0x001715C8,112
+FUN_00171d10(void),0x00171D10,8
+FUN_00172280(int *param_1),0x00172280,80
+FUN_00172448(int *param_1),0x00172448,40
+FUN_00172470(long param_1),0x00172470,72
+"FUN_001724b8(long param_1,undefined4 param_2)",0x001724B8,72
+"FUN_00172d10(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,undefined4 *param_5,undefined4 *param_6,undefined4 param_7,undefined4 param_8)",0x00172D10,336
+"FUN_00172e60(undefined4 param_1,undefined param_2,undefined4 param_3,undefined4 *param_4,undefined4 *param_5,undefined8 *param_6)",0x00172E60,400
+"FUN_00172ff0(long param_1,undefined4 param_2)",0x00172FF0,64
+"FUN_00173030(long param_1,undefined4 *param_2)",0x00173030,72
+"FUN_00173078(long param_1,undefined4 *param_2)",0x00173078,80
+"FUN_001730c8(long param_1,undefined4 *param_2)",0x001730C8,72
+"FUN_00173110(undefined4 param_1,long param_2)",0x00173110,56
+FUN_00174d50(float param_1),0x00174D50,128
+FUN_00174dd0(void),0x00174DD0,88
+FUN_00174e28(undefined4 *param_1),0x00174E28,104
+FUN_00174e90(undefined4 *param_1),0x00174E90,104
+"FUN_00175008(undefined4 param_1,int param_2)",0x00175008,72
+FUN_00175050(int param_1),0x00175050,32
+FUN_00176e90(void),0x00176E90,8
+FUN_00176e98(void),0x00176E98,8
+FUN_00177490(int param_1),0x00177490,72
+"FUN_00178c28(long param_1,long *param_2)",0x00178C28,128
+"FUN_0017d118(long param_1,int param_2,int param_3,int param_4)",0x0017D118,88
+"FUN_00180800(long param_1,undefined8 *param_2)",0x00180800,144
+"FUN_00180890(undefined4 param_1,long param_2)",0x00180890,88
+FUN_001808e8(long param_1),0x001808E8,88
+FUN_00180940(void),0x00180940,8
+FUN_00180948(void),0x00180948,8
+"FUN_0018bc48(long param_1,undefined8 *param_2,undefined8 *param_3)",0x0018BC48,168
+"FUN_0018be60(undefined4 param_1,long param_2)",0x0018BE60,80
+"FUN_0018beb0(long param_1,int param_2,long param_3,long param_4)",0x0018BEB0,104
+FUN_0018bfe0(long param_1),0x0018BFE0,96
+"FUN_001909a0(undefined4 param_1,long param_2)",0x001909A0,80
+"FUN_001909f0(long param_1,int param_2,long param_3,long param_4)",0x001909F0,120
+"FUN_001947f8(undefined4 param_1,undefined4 param_2,long param_3,long param_4,undefined4 param_5,undefined8 *param_6,undefined8 *param_7)",0x001947F8,264
+FUN_00194950(long param_1),0x00194950,24
+"FUN_00194a40(long param_1,undefined8 *param_2,undefined8 *param_3)",0x00194A40,160
+"FUN_00194d48(float param_1,long param_2)",0x00194D48,88
+"FUN_00194d90(long param_1,long param_2)",0x00194D90,64
+FUN_0019fcf0(long param_1),0x0019FCF0,112
+FUN_0019ff30(long param_1),0x0019FF30,88
+FUN_0019ff88(void),0x0019FF88,8
+FUN_0019ff90(void),0x0019FF90,8
+FUN_0019ff98(void),0x0019FF98,8
+FUN_0019ffa0(void),0x0019FFA0,8
+FUN_0019ffa8(void),0x0019FFA8,8
+"FUN_0019ffb0(long param_1,int param_2,uint **param_3)",0x0019FFB0,296
+"FUN_001a6830(float param_1,long param_2)",0x001A6830,96
+"FUN_001a6890(long param_1,int param_2,long param_3,long param_4)",0x001A6890,104
+"FUN_001a6a70(long param_1,undefined param_2)",0x001A6A70,96
+"FUN_001a76f8(int param_1,long param_2)",0x001A76F8,56
+"FUN_001a7720(int param_1,long param_2)",0x001A7720,40
+"FUN_001a7748(int param_1,undefined4 param_2)",0x001A7748,8
+"FUN_001a8c48(int Team_ID,Vector4 *param_2)",0x001A8C48,48
+FUN_001a8c78(int Team_ID),0x001A8C78,32
+"FUN_001a8d00(int param_1,Vector4 *param_2)",0x001A8D00,48
+FUN_001ad0c8(void),0x001AD0C8,24
+"FUN_001ad3c8(ulong param_1,int param_2)",0x001AD3C8,48
+"FUN_001ad420(ulong param_1,int param_2)",0x001AD420,448
+FUN_001ad5e0(void),0x001AD5E0,40
+"FUN_001ad788(undefined4 param_1,int *param_2)",0x001AD788,40
+"FUN_001ad850(int *param_1,int *param_2)",0x001AD850,40
+FUN_001ad9d0(void),0x001AD9D0,24
+FUN_001ad9f8(void),0x001AD9F8,24
+FUN_001adb18(void),0x001ADB18,8
+FUN_001adb20(void),0x001ADB20,8
+FUN_001b37a8(float *param_1),0x001B37A8,144
+"FUN_00230550(long param_1,undefined4 *param_2,undefined4 *param_3)",0x00230550,400
+FUN_002308b8(long param_1),0x002308B8,48
+FUN_00230c70(int *PTR_MAP_Collisionable_Object_Unknown_Item),0x00230C70,40
+"FUN_00231200(float *param_1,undefined4 *param_2)",0x00231200,104
+"FUN_00231448(undefined4 param_1,undefined4 param_2,int *param_3,float *param_4)",0x00231448,96
+"FUN_00231d10(Vector4 *param_1,Vector4 *param_2,float *param_3,float *param_4,float *param_5)",0x00231D10,16984
+"FUN_00237080(Vector4 *param_1,Vector4 *param_2)",0x00237080,536
+"FUN_00237298(Vector4 *param_1,Vector4 *param_2,float *param_3,float *param_4)",0x00237298,328
+"FUN_00237670(Vector4 *param_1,Vector4 *param_2,float *param_3,float *param_4,float *param_5)",0x00237670,120
+"FUN_002384b8(float *param_1,Vector4 *param_2)",0x002384B8,256
+"FUN_002386d8(float *param_1,float *param_2)",0x002386D8,96
+"FUN_00238738(undefined4 *param_1,undefined4 *param_2,Vector4 *param_3,Vector4 *param_4)",0x00238738,168
+"FUN_00239650(float *param_1,float *param_2)",0x00239650,48
+"FUN_00239680(undefined4 *param_1,undefined4 *param_2,undefined4 *param_3)",0x00239680,72
+"FUN_002397b0(undefined4 *param_1,undefined4 *param_2,undefined4 *param_3,undefined4 *param_4,undefined4 *param_5)",0x002397B0,104
+FUN_002e9cf0(uint *param_1),0x00239CF0,176
+fun_002500d0(Model *PTR_Player_Data_Table),0x002500D0,128
+"CharacterModelHasProperty(Model *Player_Data,ModelPropertyType Property)",0x00250318,160
+FUN_00255748(int *param_1),0x00255748,24
+"FUN_00255808(int **param_1,int **param_2)",0x00255808,128
+"FUN_00255910(int **param_1,long param_2,int **param_3)",0x00255910,96
+"FUN_00255970(int **param_1,long param_2,int **param_3)",0x00255970,96
+Unlink_Sub_Struct_Last_Member(int *param_1),0x00255A38,24
+FUN_00255a50(long param_1),0x00255A50,96
+"FUN_00255a80(int *param_1,long param_2)",0x00255A80,96
+FUN_00255b08(long param_1),0x00255B08,24
+"FUN_00255b90(int *param_1,int *param_2)",0x00255B90,120
+"FUN_00255cd0(Stack *param_1,StackItem *param_2)",0x00255CD0,96
+FUN_00261830(long param_1),0x00261830,336
+"FUN_00261980(long param_1,long param_2,long param_3)",0x00261980,128
+"FUN_00261a00(long param_1,ulong param_2)",0x00261A00,232
+FUN_00262a98(void),0x00262A98,8
+FUN_002671a0(void),0x002671A0,8
+"FUN_00267380(int param_1,undefined4 *param_2,undefined4 *param_3)",0x00267380,24
+"FUN_0026e4f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)",0x0026E4F0,40
+FUN_0026e5f8(void),0x0026E5F8,80
+FUN_0026e660(void),0x0026E660,16
+FUN_0026e6a0(char param_1),0x0026E6A0,128
+FUN_00272330(undefined4 param_1),0x00272330,24
+"FUN_00272348(ADXT *param_1,undefined8 param_2,int param_3)",0x00272348,80
+"FUN_00272398(ADXT *adxt,char *param_2,char param_3)",0x00272398,80
+"FUN_002723e8(char *param_1,undefined8 param_2,int param_3)",0x002723E8,80
+FUN_00272438(undefined4 param_1),0x00272438,16
+FUN_00272448(void),0x00272448,16
+FUN_00272458(undefined4 param_1),0x00272458,24
+FUN_00272470(void),0x00272470,24
+FUN_00272488(void),0x00272488,24
+FUN_002724a0(void),0x002724A0,24
+FUN_002724b8(void),0x002724B8,24
+FUN_002724d0(void),0x002724D0,16
+FUN_002724e0(undefined4 param_1),0x002724E0,16
+FUN_002724f0(undefined4 param_1),0x002724F0,48
+FUN_00272538(void),0x00272538,56
+FUN_00286cc8(void),0x00286CC8,8
+"FUN_00286cd0(undefined4 param_1,undefined4 param_2)",0x00286CD0,24
+FUN_00286ce8(undefined8 param_1),0x00286CE8,56
+FUN_0028a460(void),0x0028A460,24
+FUN_0028a478(void),0x0028A478,24
+FUN_0028a490(void),0x0028A490,24
+FUN_0028a4a8(void),0x0028A4A8,24
+FUN_0028a4c0(void),0x0028A4C0,24
+FUN_0028a4d8(void),0x0028A4D8,24
+FUN_0028a4f0(void),0x0028A4F0,24
+FUN_0028a508(void),0x0028A508,24
+FUN_002a79b0(undefined4 param_1),0x002A79B0,48
+FUN_002a7a48(undefined4 param_1),0x002A7A48,48
+FUN_002a7b38(undefined *param_1),0x002A7B38,32
+"FUN_002a8610(ulong param_1,ulong param_2)",0x002A8610,440
+"FUN_002a9e38(ulong param_1,int param_2)",0x002A9E38,40
+FUN_002a9e60(void),0x002A9E60,32
+FUN_002a9e80(ulong param_1),0x002A9E80,32
+"_sprintf_r(undefined4 param_1,undefined *param_2,undefined8 param_3,...)",0x002A9F18,136
+"FUN_002aca98(_reent *param_1,char *__s,char *__format,__gnuc_va_list __arg)",0x002ACA98,88
+FUN_002ae288(int *param_1),0x002AE288,280
+FUN_002ae3a0(void),0x002AE3A0,32
+"FUN_002aedd0(undefined4 param_1,long param_2)",0x002AEDD0,40
+"FUN_002af368(int *param_1,int param_2,long param_3,long param_4,undefined4 param_5)",0x002AF368,304
+FUN_002afc70(undefined8 param_1),0x002AFC70,208
+"FUN_002b0060(int param_1,int param_2)",0x002B0060,304
+FUN_002b0130(long param_1),0x002B0130,112
+FUN_002e9da0(undefined4 *param_1),0x002E9DA0,176
+FUN_002e9e50(void),0x002E9E50,192
+"FUN_002e9f10(int param_1,int param_2,ulong param_3)",0x002E9F10,168
+"FUN_002e9fb8(int param_1,int param_2,ulong param_3)",0x002E9FB8,120
+FUN_002ea030(void),0x002EA030,208
+"FUN_002ea100(undefined8 param_1,undefined4 param_2,long param_3,int param_4)",0x002EA100,816
+"FUN_002ea468(int param_1,uint param_2)",0x002EA468,32
+"FUN_002ea488(undefined8 param_1,long param_2,ulong param_3)",0x002EA488,264
+"FUN_002ea590(uint param_1,undefined4 param_2,undefined4 param_3)",0x002EA590,320
+FUN_002ea6d0(long param_1),0x002EA6D0,416
+FUN_002ea870(undefined2 param_1),0x002EA870,32
+FUN_002ea890(undefined4 param_1),0x002EA890,40
+FUN_002ea8b8(void),0x002EA8B8,504
+FUN_002eaab0(undefined4 param_1),0x002EAAB0,48
+FUN_002eaaf0(void),0x002EAAF0,272
+"FUN_002eac38(undefined4 param_1,uint param_2,undefined4 param_3,undefined4 param_4)",0x002EAC38,144
+"FUN_002eacc8(ulong param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,undefined4 param_5)",0x002EACC8,64
+"FUN_002ead08(ulong param_1,undefined4 *param_2,undefined4 *param_3,undefined4 *param_4,undefined4 *param_5)",0x002EAD08,80
+"FUN_002ead58(undefined4 param_1,undefined4 *param_2,undefined4 *param_3,undefined4 *param_4)",0x002EAD58,80
+FUN_002eada8(ulong param_1),0x002EADA8,391

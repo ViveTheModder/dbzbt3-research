@@ -2,8 +2,10 @@
 New &amp; old research done on DBZ Budokai Tenkaichi 3 by its modding community throughout the years, now stored in this repository. 
 
 ## Contents
-### [Simple Code Injection Tutorial](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/README.md)
+### [Simple Code Injection Tutorial](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/README.md)
 
+### Code Research
+* [Damage](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/research/damage.md)
 ### Ultimate Battle
 * [Mission Results](https://github.com/ViveTheModder/dbzbt3-research/blob/main/ult-battle/mission-results/README.md)
 * [Ranking Battle](https://github.com/ViveTheModder/dbzbt3-research/blob/main/ult-battle/ranking-battle/README.md)
