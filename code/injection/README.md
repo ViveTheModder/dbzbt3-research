@@ -7,8 +7,8 @@
 ## Requirements
 * Any hex editor out there (in this case, [010 Editor](https://www.sweetscape.com/download/010editor/))
 * [Cheat Engine](https://github.com/cheat-engine/cheat-engine)
-* [DBZBT3 Unused Functions CSV](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/csv/dbzbt3-unused-functions.csv)
-* [DBZBT3 Unused Methods CSV](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/csv/dbzbt3-unused-methods.csv)
+* [DBZBT3 Unused Functions CSV](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/csv/dbzbt3-unused-functions.csv)
+* [DBZBT3 Unused Methods CSV](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/csv/dbzbt3-unused-methods.csv)
 * [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
 * [PCSX2](https://github.com/PCSX2/pcsx2/releases)
 
@@ -39,7 +39,7 @@ If the number of instructions remains unchanged for that function/method, then n
 The rest of this tutorial will use the ``BattleActor::CurrentStageIsTournament(void)`` method as an example. 
 That is because I wanted to go for something simple, especially for my first time trying out code injection.
 
-![ghidra-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ghidra-1.png)
+![ghidra-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ghidra-1.png)
 
 Said method is located at address 0x001DC3E8, and its instructions can be viewed straight from the game memory. 
 To do this, either Cheat Engine or PCSX2's in-built debugger can be used.
@@ -60,11 +60,11 @@ Here, I took the last 3 instructions from ``BattleActor::FUN_001DC390`` and adde
 
 3. While in Cheat Engine's Memory Viewer, use the CTRL+F shortcut, select the ``(Array of) byte`` option and paste in the byte search.
 
-![ce-5](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-5.png)
+![ce-5](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-5.png)
 
 4. Look at the bottom-left corner of the Memory Viewer and copy the address.
 
-![ce-6](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-6.png)
+![ce-6](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-6.png)
 
 As a result, in the NTSC-U version, the ``BattleActor::CurrentStageIsTournament(void)`` method is located at 0x201DC480.
 
@@ -77,33 +77,33 @@ The same logic can be applied to finding the function/method directly in the ELF
 2. Click the ``Memory View`` button.
 3. While in the Memory Viewer, use the CTRL+G keyboard shortcut and simply paste in the address, but replace its leftmost digit with a 2.
 
-![ce-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-1.png)
+![ce-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-1.png)
 
-![ce-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-2.png)
+![ce-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-2.png)
 
-![ce-3](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-3.png)
+![ce-3](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-3.png)
 
-![ce-4](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ce-4.png)
+![ce-4](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ce-4.png)
 
 ## How to view Functions/Methods in Memory - The PCSX2 Debugger Way
 1. This may differ for later versions of PCSX2 (after 1.6), but go to Debug -> Open Debug Window...
 2. Make sure the game is running. Otherwise, the debugger's memory viewer will show question marks.
 3. Use the CTRL+G keyboard shortcut and simply paste in the address, but replace its leftmost digit with a 2.
 
-![pcsx2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/pcsx2.png)
+![pcsx2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/pcsx2.png)
 
 # Code Injection Examples
 ## Try It Out!
-1. [Added Ring-Out to 1 map (Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/add-ringout-to-maps/SLUS_216%20(v1).78)
-2. [Added Ring-Out to 4 maps (all Desert maps, Planet - Night, and Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/add-ringout-to-maps/SLUS_216%20(v2).78)
-3. [Added ability to view damaged costumes in Character Reference; imported from DBZBT4](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/mods/view-damaged-costumes)
+1. [Added Ring-Out to 1 map (Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/mods/add-ringout-to-maps/SLUS_216%20(v1).78)
+2. [Added Ring-Out to 4 maps (all Desert maps, Planet - Night, and Mountain Road - Evening)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/mods/add-ringout-to-maps/SLUS_216%20(v2).78)
+3. [Added ability to view damaged costumes in Character Reference; imported from DBZBT4](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/mods/view-damaged-costumes)
 
 ## Demonstration
-![example-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/example-1.png)
+![example-1](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/example-1.png)
 
-![example-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/example-2.png)
+![example-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/example-2.png)
 
-![example-3](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/example-3.png)
+![example-3](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/example-3.png)
 
 ## Breakdown
 There's more than one way to skin a cat, as they say. My approach may not be the best, but it sure as hell works.
@@ -117,7 +117,7 @@ So, to get a general idea of the ``BattleActor::CurrentStageIsTournament(void)``
 
 The actual code itself is pretty simple: get current map ID, compare it to two other map IDs, then return true if the IDs match.
 
-![ghidra-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code-injection/img/ghidra-2.png)
+![ghidra-2](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/injection/img/ghidra-2.png)
 
 In order to add more map checks to the code, I found three unused methods next to each other and zeroed out their instructions to make some space.
 I also copied the remaining 12 instructions of the method above, zeroed them out and moved them to that empty space.
