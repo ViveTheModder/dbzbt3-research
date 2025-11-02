@@ -13,5 +13,5 @@ New &amp; old research done on DBZ Budokai Tenkaichi 3 by its modding community 
 * [AFS (ADX File System)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/afs/README.md)
 * [COM Transformation Recognition](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/cmr/README.md)
 * [LPS (Lip-Syncing)](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/lps/README.md)
-* [Special Quote Handler](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/dat/voice_speaker.md)
 * [Skirt Model Research](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/mdl/skirt.md)
+* [Special Quote Handler](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/dat/voice_speaker.md)
