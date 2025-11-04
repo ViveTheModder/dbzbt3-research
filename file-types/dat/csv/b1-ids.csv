@@ -1,77 +1,77 @@
 b1-name,b1-id-1,b1-id-2,b1-id-3,b1-id-4,b1-id-5,b1-id-6,b1-id-7,b1-id-8,b1-id-9,b1-id-10,b1-id-11,b1-id-12,b1-id-13
-Acid,16
-Afterimage,12,16,39,41,55,60,90
-Afterimage Strike,0,1,7,12,26,39,44,51,75,93
-All-Out,39
-Android Barrier,13,56,57,97
-Barrier,43
-Burning Heart,32
-Champion Style?!,27
-Dark Eyes,54
-Demon Eye,88
-Evil Barrier,94
-Excited,91
+Acid,16,,,,,,,,,,,,
+Afterimage,12,16,39,41,55,60,90,,,,,,
+Afterimage Strike,0,1,7,12,26,39,44,51,75,93,,,
+All-Out,39,,,,,,,,,,,,
+Android Barrier,13,56,57,97,,,,,,,,,
+Barrier,43,,,,,,,,,,,,
+Burning Heart,32,,,,,,,,,,,,
+Champion Style?!,27,,,,,,,,,,,,
+Dark Eyes,54,,,,,,,,,,,,
+Demon Eye,88,,,,,,,,,,,,
+Evil Barrier,94,,,,,,,,,,,,
+Excited,91,,,,,,,,,,,,
 Explosive Wave,0,1,12,13,16,17,18,19,20,21,40,51,55
 False Courage,0,9,11,16,27,28,39,39,42,45,48,58,92
-Finish Sign,41,43,45,48,60,63,69
-For The Villagers,42
-Fruit of the Tree of Might,40
-Full Power,26,29,30,31,39,41,45,47,48,66
-Full Power,84
-Full Power Charge,46
-Give me energy!,65
-Hero's Flute,1
-Hi-Tension,26,41,42,45,60,70
-Howl,0,20,39,40,45,47,48,50,51
-I'll Beat You In 5 Seconds!,35
-I'm Getting Excited!,86
-I'm Super Vegeta!,55
-I'm The Worst!,83
-Inexperienced Power Up,41
-Instantaneous Transmission,0,2,20,36,39,51,54
-Justice Finishing Pose,61
-Justice Finishing Pose 2,51
-Justice Pose 1,51
-Kaikosen,7,8,17,55,67,24
-Kaio-ken,24
-Kakarot,59
-King of Saiyans,40
-King's Dignity,72
-Long awaited-for 100%,25
-Mad Warrior,89
-Maiden's Excitement,96
-Maiden's Will,95
-Majin's Awakening,39
-Makyo Star,64
-Minion's Latent Energy,51
-Mystic Breath,22,28,39,47,52,53,54
-Ncha!,78
-Now I'm Mad!,73
-Paralysis,39
-Pilaf Barrier,60,67
-Power up to the Very Limit,39,40,47,52,55,62
-Prince's Pride,51
-Psycho Barrier,14
-Psycho Thread,55
-Psychokinesis,4,82
-Pump Up,40,42,76,98
-Rebirth,87,99
-Saiyan Soul,0,20,40,45,60,85
-Sealed Light Beam,80
-Self-Harm,23
-Senzu,47
-Shockwave,68
-Sleep,33,38,39,40,48
-Solar Flare,1,12,55,74
-SP Fighting Pose 1,12
-SP Fighting Pose 2,34
-SP Fighting Pose 3,40
-SP Fighting Pose 4,5
-SP Fighting Pose 5,37
-Stalling,12
-Super Unyielding Spirit,12,26,43,55
-Telekinesis,3,100
-Unforgivable,81
-Vice Shout,10,12
-Wild Sense,7,8,26,39,41,47,51,54,55,60
-Wizard Barrier,77
+Finish Sign,41,43,45,48,60,63,69,,,,,,
+For The Villagers,42,,,,,,,,,,,,
+Fruit of the Tree of Might,40,,,,,,,,,,,,
+Full Power,26,29,30,31,39,41,45,47,48,66,,,
+Full Power,84,,,,,,,,,,,,
+Full Power Charge,46,,,,,,,,,,,,
+Give me energy!,65,,,,,,,,,,,,
+Hero's Flute,1,,,,,,,,,,,,
+Hi-Tension,26,41,42,45,60,70,,,,,,,
+Howl,0,20,39,40,45,47,48,50,51,,,,
+I'll Beat You In 5 Seconds!,35,,,,,,,,,,,,
+I'm Getting Excited!,86,,,,,,,,,,,,
+I'm Super Vegeta!,55,,,,,,,,,,,,
+I'm The Worst!,83,,,,,,,,,,,,
+Inexperienced Power Up,41,,,,,,,,,,,,
+Instantaneous Transmission,0,2,20,36,39,51,54,,,,,,
+Justice Finishing Pose,61,,,,,,,,,,,,
+Justice Finishing Pose 2,51,,,,,,,,,,,,
+Justice Pose 1,51,,,,,,,,,,,,
+Kaikosen,7,8,17,55,67,24,,,,,,,
+Kaio-ken,24,,,,,,,,,,,,
+Kakarot,59,,,,,,,,,,,,
+King of Saiyans,40,,,,,,,,,,,,
+King's Dignity,72,,,,,,,,,,,,
+Long awaited-for 100%,25,,,,,,,,,,,,
+Mad Warrior,89,,,,,,,,,,,,
+Maiden's Excitement,96,,,,,,,,,,,,
+Maiden's Will,95,,,,,,,,,,,,
+Majin's Awakening,39,,,,,,,,,,,,
+Makyo Star,64,,,,,,,,,,,,
+Minion's Latent Energy,51,,,,,,,,,,,,
+Mystic Breath,22,28,39,47,52,53,54,,,,,,
+Ncha!,78,,,,,,,,,,,,
+Now I'm Mad!,73,,,,,,,,,,,,
+Paralysis,39,,,,,,,,,,,,
+Pilaf Barrier,60,67,,,,,,,,,,,
+Power up to the Very Limit,39,40,47,52,55,62,,,,,,,
+Prince's Pride,51,,,,,,,,,,,,
+Psycho Barrier,14,,,,,,,,,,,,
+Psycho Thread,55,,,,,,,,,,,,
+Psychokinesis,4,82,,,,,,,,,,,
+Pump Up,40,42,76,98,,,,,,,,,
+Rebirth,87,99,,,,,,,,,,,
+Saiyan Soul,0,20,40,45,60,85,,,,,,,
+Sealed Light Beam,80,,,,,,,,,,,,
+Self-Harm,23,,,,,,,,,,,,
+Senzu,47,,,,,,,,,,,,
+Shockwave,68,,,,,,,,,,,,
+Sleep,33,38,39,40,48,,,,,,,,
+Solar Flare,1,12,55,74,,,,,,,,,
+SP Fighting Pose 1,12,,,,,,,,,,,,
+SP Fighting Pose 2,34,,,,,,,,,,,,
+SP Fighting Pose 3,40,,,,,,,,,,,,
+SP Fighting Pose 4,5,,,,,,,,,,,,
+SP Fighting Pose 5,37,,,,,,,,,,,,
+Stalling,12,,,,,,,,,,,,
+Super Unyielding Spirit,12,26,43,55,,,,,,,,,
+Telekinesis,3,100,,,,,,,,,,,
+Unforgivable,81,,,,,,,,,,,,
+Vice Shout,10,12,,,,,,,,,,,
+Wild Sense,7,8,26,39,41,47,51,54,55,60,,,
+Wizard Barrier,77,,,,,,,,,,,,
