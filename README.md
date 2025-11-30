@@ -6,6 +6,7 @@ New &amp; old research done on DBZ Budokai Tenkaichi 3 by its modding community 
 
 ### Code Research
 * [Damage](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/research/damage.md)
+* [File Size Limits](https://github.com/ViveTheModder/dbzbt3-research/blob/main/code/research/limits.md)
 * [Special Attacks](https://github.com/ViveTheModder/dbzbt3-research/blob/main/file-types/dat/blasts.md)
 
 ### Ultimate Battle
