@@ -1,0 +1,14 @@
+file-type,hardcoded-limit,maximum-limit
+Battle Training Images,57344,57344
+Character Animation Container,1443840,1443840
+Character Audio Container,591872,591872
+Character Costume,843776,1048576
+Character Effect Container,845824,1042432
+Character Portrait (Compressed),92160,92160
+Character Portrait (Decompressed),133120,133120
+Character Tag/Switch Image,4096,4096
+Loading Screen (Compressed),12288,12288
+Loading Screen (Decompressed),26624,26624
+Map File,7200768,7200768
+Map Portrait (Compressed),243712,243712
+Scenario Portrait (Compressed),114688,114688
